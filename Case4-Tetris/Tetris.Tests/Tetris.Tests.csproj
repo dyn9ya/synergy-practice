@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Tetris\Figure.cs" Link="Figure.cs" />
+    <Compile Include="..\Tetris\GameField.cs" Link="GameField.cs" />
+    <Compile Include="..\Tetris\Game.cs" Link="Game.cs" />
+    <Compile Include="..\Tetris\Renderer.cs" Link="Renderer.cs" />
+  </ItemGroup>
+
+</Project>

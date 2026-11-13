@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Тестируем тот же файл логики, что используется в приложении -->
+    <Compile Include="..\Calculator\CalculatorEngine.cs" Link="CalculatorEngine.cs" />
+  </ItemGroup>
+
+</Project>
